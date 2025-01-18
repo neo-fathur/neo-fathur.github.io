@@ -7,28 +7,31 @@
         <link href='http://fonts.googleapis.com/css?family=Gorditas' rel='stylesheet' type='text/css'>
     </head>
     <body>
-        <header>     
-        <ul class="nav">
-        <p><a href="index.html">Home</a></p>
-        <p><a href="kittens.html">Kittens</a></p>
-        </ul>
+        <header>
+            <h1>{{ site.title }}</h1>
+            <h2>{{ page.title }}</h2>
+            <ul class="nav">
+                <p><a href="index.html">Home</a></p>
+                <p><a href="kittens.html">Kittens</a></p>
+            </ul>
         </header>
         
-        <h1>{{ site.title }}</h1>
-        <h2>{{ page.title }}</h2>
-        
         <hr />
         <br>
         
-        {{ content }}
+        <div id="content">
+            {{ content }}
+        </div>
         
         <br>
         <hr />
         
-        <blockquote><p>
-            And here I stand, with all my lore,<br />
-            Poor fool, no wiser than before.
-        </p></blockquote>
-        <p>-Johann Wolfgang von Goethe. Faust. Part I.</p>
+        <div id="footer">
+            <blockquote><p>
+                And here I stand, with all my lore,<br />
+                Poor fool, no wiser than before.
+            </p></blockquote>
+            <p>-Johann Wolfgang von Goethe. Faust. Part I.</p>
+        </div>
     </body>
 </html>
