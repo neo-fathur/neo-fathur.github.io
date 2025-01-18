@@ -3,11 +3,11 @@ h1 {
     font-size: 44px;
     text-transform: uppercase;
 
-    border: 1px solid brown;
+    border: 1px solid blue;
     margin: 20px 10px;
     padding: 10px 5px;
 }
 p {
-    color: blue;
+    color: brown;
     font-family: 'Gorditas', cursive;
 }
