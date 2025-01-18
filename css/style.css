@@ -32,7 +32,7 @@ ul.nav {
 ul.nav li {
     display: inline;
     border: 1px solid #330033;
-    padding: 0 1em 0 1em;
+    padding: 3px 2px;
 }
 ul.nav li a {
     font-family: Futura;
