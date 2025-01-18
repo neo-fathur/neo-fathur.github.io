@@ -1,5 +1,5 @@
 h1 {
-    color: hotpink;
+    color: red;
     font-size: 44px;
     text-transform: uppercase;
 
@@ -8,6 +8,6 @@ h1 {
     padding: 10px 5px;
 }
 p {
-    color: skyblue;
+    color: blue;
     font-family: 'Gorditas', cursive;
 }
